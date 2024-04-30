@@ -1,0 +1,22 @@
+AnalysisError - ok
+*Assembler - verificar e entender
++Constants - alterar tudo (necessário p nossa gramática)
+LexicalError - ok
+?Lexico - verificar e entender
+?ParserConstants - verificar e entender
+?ScannersContants - verificar e entender
+SemanticErro - ok
+Semantico - verificar as inclusões
+*SemanticTable - ok?
+Sintatico - ok
+*Symbol - 
+*SymbolTable - 
+SyntaticError - ok
+Token - ok
+
+
+*arquivo novo
++já previsto, deve-se sobrepor as informações com calma para funcionar c a gramatica
+?já previsto, mas bem diferente
+
+verificar IDE do professor

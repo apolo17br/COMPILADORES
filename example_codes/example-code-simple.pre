@@ -1,0 +1,14 @@
+@add () -> int {
+	$c = 1
+  $a = 1 + $c
+}
+
+@main ($args: string[], $argc: int) -> int {
+  $a = 3
+  $b = 2.5
+  $c = $a + $b
+  &PI = 3.14
+  $msg = "Olá mundo!"
+  $verdadeiro = true
+  return 1
+}

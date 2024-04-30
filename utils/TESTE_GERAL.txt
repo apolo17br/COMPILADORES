@@ -1,0 +1,56 @@
+@multPlic (&constantezinha: float, $multiplicadorzinho: int) -> double {
+  $var1 = ( 1 + (&constantezinha * $multiplicador))
+  return $var1
+}
+
+@principal ($entrada1: string[], $entrada2: int) -> int {
+  &constante2 = "Edu"
+  $e = 3
+  $d = 2.5
+  $u = $e + $d
+  $numeros[1] = 7
+  $potenciacao = $a ^ 3
+  $mensagem = @ler()
+  $caractere = 'x'
+
+  $teste = @multPlic(1.1, 20)
+  
+  if ($e > 7) {
+    $mensagem = "$e é maior que 7"
+    @escrever($mensagem)
+  } elsif ($e <= 7) {
+    $mensagem = "$a é menor ou igual a 7"
+    @escrever($mensagem)
+  } else {
+    $mensagem = "Bye, bye."
+    if (7 == 7) {
+	if (1 != 1) {
+	  $mensagem = "Eureca"
+	  @escrever($mensagem)
+        } else {
+	  $mensagem = "Boteco"
+          @escrever($mensagem)
+        }
+    }
+  }
+
+  $y = 10
+  do {
+    $y = $y + 1
+  } while ($y <= 5)
+
+  while ($y < 10) {
+    $h = $y + 1
+  }
+
+  for ($i in @abrangencia(0, 9, 3)) {
+    @escrever($args[$i])
+  }
+
+  $vet = [10, 20, 30 * 50, $e]
+  $verdadeiro = true
+  $binario = 0b100
+  $hexadecimal = 0xa1bcf2
+
+  return 1
+}
